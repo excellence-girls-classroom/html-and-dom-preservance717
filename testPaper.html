@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html-Dom</title>
+</head>
+<body>
+<div>
+<span id="header">西安软件服务外包学院</span><hr>
+</div>
+
+<div id="topic"><h1>统一建模语言理论测试</h1></div>
+
+<div class="field" id="item">
+    <div>考试科目：统一建模语言UML &nbsp;&nbsp;时间：100分钟&nbsp;&nbsp;
+        得分：<input name="grade" type="text" maxlength="30">
+    </div><br>
+
+    <div>
+        <span>班级：<input name="klass" type="text" maxlength="30">&nbsp;&nbsp;
+            学号：<input name="stuNum" type="text" maxlength="30">&nbsp;&nbsp;
+            姓名：<input name="name" type="text" maxlength="30"></span>
+    </div>
+</div><br>
+
+    <div class="field" id="field1"><span class="fieldTitle">一、&nbsp;&nbsp;&nbsp;&nbsp;填空题</span><br>
+        <span>1.&nbsp;UML的中文全称是：<input name="form1" type="text" maxlength="40"></span><br>
+        <span>2.&nbsp;对象最突出的特征是：<input name="form2" type="text" maxlength="20">、
+            <input name="form2" type="text" maxlength="20">、
+            <input name="form2" type="text" maxlength="20"></span>
+    </div><br>
+
+<div class="field" id="field2"><span class="fieldTitle">二、&nbsp;&nbsp;&nbsp;&nbsp;选择题</span><br>
+    <div class="itemTitle" id="item1">1.&nbsp;UML与软件工程的关系是：【&nbsp;&nbsp;】
+        <div class="item-text">
+            <input id="item1_0" type="radio"  name="item1" value="1_1">
+            <label for="item1">（A）UML就是软件工程</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item1_1" type="radio" name="item1" value="1_2">
+            <label for="item1">（B）UML就是软件工程中软件开发的几个阶段</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item1_2" type="radio" name="item1" value="1_3">
+            <label for="item1">（C）UML与软件工程无关</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item1_3" type="radio" name="item1" value="1_4">
+            <label for="item1">（D）UML就是软件工程中的一部分</label>
+        </div>
+    </div><br>
+
+    <div class="itemTitle" id="item2">2.&nbsp;Java语言支持：【&nbsp;&nbsp;】
+        <div class="item-text">
+            <input id="item2_0" type="radio" name="item2" value="2_1">
+            <label for="item2">（A）单继承</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item2_1" type="radio" name="item2" value="2_2">
+            <label for="item2">（B）多继承</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item2_2" type="radio" name="item2" value="2_3">
+            <label for="item2">（C）单继承和多继承都支持</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item2_3" type="radio" name="item2" value="2_4">
+            <label for="item2">（D）单继承和多继承都不支持</label>
+        </div>
+    </div>
+</div><br>
+
+<div class="field" id="field3"><span class="fieldTitle">三、&nbsp;&nbsp;&nbsp;&nbsp;多选题</span><br>
+    <div class="itemTitle" id="item3">1.&nbsp;用例的粒度分为以下哪三种。
+        <div class="item-text">
+            <input id="item3_0" type="checkbox" name="item3" value="3_1">
+            <label for="item3">（A）概述级、</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item3_1" type="checkbox" name="item3" value="3_2">
+            <label for="item3">（B）需求级</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item3_2" type="checkbox" name="item3" value="3_3">
+            <label for="item3">（C）用户目标级、</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item3_3" type="checkbox" name="item3" value="3_4">
+            <label for="item3">（D）子功能级</label>
+        </div>
+    </div><br>
+
+    <div class="itemTitle" id="item4">2.&nbsp;类图由以下哪三部分组成。
+        <div class="item-text">
+            <input id="item4_0" type="checkbox" name="item4" value="4_1">
+            <label for="item4">（A）名称(Name)</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item4_1" type="checkbox" name="item4" value="4_2">
+            <label for="item4">（B）属性(Attribute)</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item4_2" type="checkbox" name="item4" value="4_3">
+            <label for="item4">（C）操作(Operation)</label>
+        </div>
+
+        <div class="item-text">
+            <input id="item4_3" type="checkbox" name="item4" value="4_4">
+            <label for="item4">（D）方法(Function)</label>
+        </div>
+    </div>
+</div><br>
+
+<div class="field" id="field4"><span class="fieldTitle">四、&nbsp;&nbsp;&nbsp;&nbsp;判断题</span><br>
+    <span>1.&nbsp;用例图只是用于和客户交流和沟通的，用于确定需求。 </span><br>
+    <span><input id="field4_0" type="radio" name="judge">Yes&nbsp;&nbsp;&nbsp;
+    <input id="field4_1" type="radio" name="judge">NO</span><br>
+    <span>2.&nbsp;在状态图中，终止状态在一个状态中允许有任意多个。</span><br>
+    <span><input id="field4_2" type="radio" name="judge">Yes&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="judge">NO</span>
+</div><br>
+
+<div class="field" id="field5"><span class="fieldTitle">五、&nbsp;&nbsp;&nbsp;&nbsp;简答题（每题4分，共20分）</span><br>
+    <span>1.&nbsp;简述什么是模型以及模型的表现形式</span><br>
+    <input id="field5_0" type="text">
+</div><br>
+
+<input type="button" name="summit" value="提交" onclick="getReport()"/>
+<input type="button" name="reset" value="重置"/>
+</body>
+
+<script type="text/javascript" src="answer.js"></script>
+</html>
